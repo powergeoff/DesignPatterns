@@ -21,6 +21,8 @@ internal class Program
 
         //FWDemo.Run();
 
-        TemplateDemo.Run();
+        //TemplateDemo.Run();
+
+        IteratorDemo.Run();
     }
 }
