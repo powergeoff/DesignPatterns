@@ -14,7 +14,7 @@ public class DinerMenuIterator : IIterator
         return position <= _items.Count() - 1;
     }
 
-    public Object Next()
+    public object Next()
     {
         MenuItem item = _items[position];
         position++;
