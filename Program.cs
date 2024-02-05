@@ -24,18 +24,11 @@ internal class Program
         //TemplateDemo.Run();
 
         //IteratorDemo.Run();
-        /*
-        Given 17 and 4, the output will be 4, 8, 12, 16
+        
 
-· Given 21 and 7, the output will be 14
+        //Division.Exercise(2,2);
 
-· Given 5 and 20, the output will be 10, 20
-
-· Given 3 and 10, the output will be 6
-
-· Given 2 and 2, the output will be 2
-        */
-
-        Division.Exercise(2,2);
+        //DuckSimulator.Simulate();
+        AnimalDemo.Run();
     }
 }
