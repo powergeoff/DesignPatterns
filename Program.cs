@@ -24,11 +24,12 @@ internal class Program
         //TemplateDemo.Run();
 
         //IteratorDemo.Run();
-        
+
 
         //Division.Exercise(2,2);
 
         //DuckSimulator.Simulate();
         AnimalDemo.Run();
+        PersonDemo.Run();
     }
 }
