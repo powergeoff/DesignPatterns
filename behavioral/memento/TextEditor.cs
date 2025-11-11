@@ -1,6 +1,7 @@
 public class TextEditor
 {
     private string? _content;
+    private string? _header;
 
     public void Write(string text)
     {

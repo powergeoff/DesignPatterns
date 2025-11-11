@@ -11,7 +11,7 @@ internal class Program
        Behavioral.Visitor.Demo.VisitorDemo.Run();
        Behavioral.Visitor.Exercise.VisitorExerciseDemo.Run(); */
 
-        //StrategyDemo.Run();
+        StrategyDemo.Run();
         //Structural.Composite.CompositeDemo.Run();
         //Structural.Adapter.AdapterDemo.Run();
         //Structural.Adapter.AdapterDemo.RunExercise();

@@ -2,7 +2,8 @@ using System.Security.AccessControl;
 
 namespace Behavioral.Strategy;
 
-public abstract class Character {
+public abstract class Character
+{
     protected IWeaponBehavior _weapon;
 
     public Character(IWeaponBehavior weapon)
@@ -10,6 +11,9 @@ public abstract class Character {
         _weapon = weapon;
     }
 
-    public abstract void Fight();
+    public virtual void Fight()
+    {
+        _weapon.UseWeapon();
+    }
     public abstract void SetWWeapon(IWeaponBehavior w);
 }

@@ -1,8 +1,8 @@
-namespace   Behavioral.Strategy;
+namespace Behavioral.Strategy;
 
 public class King : Character
 {
-    public King(): base(new SwordBehavior())
+    public King() : base(new SwordBehavior())
     {
     }
     public King(IWeaponBehavior weapon) : base(weapon)
@@ -16,6 +16,9 @@ public class King : Character
 
     public override void Fight()
     {
+        _weapon.UseWeapon();
+        _weapon.UseWeapon();
+        SetWWeapon(new KnifeBehavior());
         _weapon.UseWeapon();
     }
 }
