@@ -1,3 +1,4 @@
-public interface IUndoCommand: ICommand {
+public interface IUndoCommand
+{
     void UnExecute();
 }

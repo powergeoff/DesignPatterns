@@ -1,8 +1,10 @@
 using Structural.Decorator.Book;
 
 namespace Structural.Decorator;
-public static class DecoratorDemo{
-    public static void Run(){
+public static class DecoratorDemo
+{
+    public static void Run()
+    {
         //do stuff
         StoreCreditCard(
             new CompressedCloudStream(
@@ -18,10 +20,11 @@ public static class DecoratorDemo{
         stream.Write("1234-1234-12345");
     }
 
-    public static void RunBook(){
-        var customOrder = new WhipDecorator((new MochaDecorator( new MochaDecorator( new SoyDecorator( 
+    public static void RunBook()
+    {
+        var customOrder = new WhipDecorator(new MochaDecorator(new MochaDecorator(new SoyDecorator(
             new HouseBlend()
-        )))));
+        ))));
         Console.WriteLine(customOrder.Description + " : costs $" + customOrder.Cost());
 
         Beverage custom = new Espresso();

@@ -1,4 +1,4 @@
-public abstract class UndoCommand : IUndoCommand
+public abstract class UndoCommand : IUndoCommand, ICommand
 {
     private History<IUndoCommand> _history;
     public UndoCommand(History<IUndoCommand> history)
